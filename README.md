@@ -1,4 +1,4 @@
-# LB-using-terraform-and-ansible
+# CLB-using-terraform-and-ansible
 
 ## Description
 
