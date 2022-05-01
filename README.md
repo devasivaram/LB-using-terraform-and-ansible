@@ -2,7 +2,7 @@
 
 ## Description
 
-Creating an Classic Load Balancer(CLB) using terraform and provisioning using ansible, here we create security group, CLB and its listner, also the Lauch configuration and auto scaling group as well. While performing provisioning we use serial flag so that instance won't get deleted or recreated but changes will get applied to all instance.
+Creating an Classic Load Balancer(CLB) using terraform and provisioning using ansible, here we create security group, CLB and its listner, also the Lauch configuration and auto scaling group as well. While performing provisioning we use serial keyword, this is used to reduce cost and time. By using this serial keyword, the instance won't get deleted or recreated while performing the code update, but changes will get applied to all instance.
 
 ## Prerequisites
 -------------------------------------------------- 
@@ -421,7 +421,7 @@ Now the terraform part is completed and now we can start ansible part, we can fe
   
 
 ### Conclusion
-This is a classic load balancer with provisioning using ansible and terraform with serial flag. Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
+This is a classic load balancer with provisioning using ansible and terraform with serial keyword. Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
 
 
 ### ⚙️ Connect with Me
