@@ -412,7 +412,8 @@ Now the terraform part is completed and now we can start ansible part, we can fe
   
   ***Once the main file is completed, run the main file using:***
   ~~~
-  
+  # ansible-playbook main --syntax-check
+  # ansible-playbook main
   ~~~
   
 
