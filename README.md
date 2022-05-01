@@ -337,10 +337,6 @@ Now the terraform part is completed and now we can start ansible part, we can fe
 - name: "Creating Aws Infra Using Ansible"
   hosts: localhost
   become: true
-  vars:
-    access_key: " your access-key "
-    secret_key: " your secret-key "
-    region: "ap-south-1"
   tasks:
 
     - name: Basic deploy of a service
