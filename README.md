@@ -330,7 +330,7 @@ Now the terraform part is completed and now we can start ansible part, we can fe
         timeout: 20
 ~~~
 
-***Method 2. Calling with output state of terraform
+***Method 2. Calling with output state of terraform***
 
 ~~~
 ---
